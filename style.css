@@ -28,3 +28,17 @@ body {
   width: 100%;
   scale: 1.2;
 }
+@media screen and (max-width: 480px) {
+  .container > img {
+  width: 30%;
+  height: 20rem;
+  aspect-ratio: 0.5/0.5;
+  object-fit: cover;
+  border: 2px solid white;
+  border-radius: 5px;
+  transition: all ease 0.5s;
+
+  .container > img:hover {
+  width: 100%;
+  scale: 1;
+}
